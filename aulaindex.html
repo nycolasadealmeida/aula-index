@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body>
+    <div class="okay" id="okay">
+         clique na fruta.
+        </div>
+    
+    <div class="maca" id="maca">
+        clique na fruta.
+       </div>
+       <img onclick="executar ('o');" src="=okay.jpg" width="200px"><button></button>
+       <img onclick="executar ('m');" src="=maca(2).jpg" width="200px"><button></button>
+       <button onclick="apagar()">apagar</button>
+       <br> <br>
+       total de maças:<span id="total_maca(2)">0</span>
+       total de okay:<span id="total_okay">0</span>
+
+   
+<script>
+    m= 0;
+    o= 0;
+
+    function executar(letra)
+      
+        if (letra == "m")
+        {
+            m=m+1
+            total_maca.innerHTM = m;
+            maca.innerHTM += "<img src='maca(2).jpg' width= '100px'>";
+        }
+        
+
+        if (letra == "o")
+        {
+            c=c+1
+            total_okay.innerHTM = o;
+            okay.innerHTM += "<img src='okay.jpg' width='100px'>";
+        }
+        function apagar()
+        {
+            meca.innerHTM =" ";
+            okay.innerHTM =" ";
+            total_maca.innerHTM = " ";
+            total_okay.innerHTM = " ";
+        }
+
+
+    
+            
+        
+    
+
+</script>
+</html>
